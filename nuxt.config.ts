@@ -3,11 +3,7 @@ export default defineNuxtConfig({
   postcss: {
     plugins: {
       tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
-  build: {
-    transpile: [],
-  },
-  compatibilityDate: '2025-04-08'
+      autoprefixer: {}
+    }
+  }
 })
