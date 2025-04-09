@@ -1,5 +1,5 @@
-
 export default defineNuxtConfig({
+  ssr: true,
   css: ['~/assets/css/tailwind.css'],
   postcss: {
     plugins: {
@@ -7,5 +7,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  compatibilityDate: '2025-04-09'
+  nitro: {
+    preset: 'static'
+  }
 })
